@@ -1,0 +1,17 @@
+version: "3"
+
+tasks:
+  build:
+    desc: Build the app
+    cmds:
+      - GOFLAGS=-mod=mod go build -o bin/go-rest-api internal/main.go
+  
+  run:
+    desc: Run the app
+    cmds:
+      - GOFLAGS=-mod=mod go run internal/main.go
+
+  swagger.gen:
+    desc: Generate Go Code
+    cmds:
+      - GOFLAGS=-mod=mod go generate github.com/scraly/
