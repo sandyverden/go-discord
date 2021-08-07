@@ -11,7 +11,7 @@ import (
 	"github.com/sandyverden/go-discord/go-rest-api/pkg/swagger/server/restapi"
 	"github.com/sandyverden/go-discord/go-rest-api/pkg/swagger/server/restapi/operations"
 
-	"github.com/sandyverden/go-discord/gi-rest-api/pkg/swagger/server/restapi/operations"
+	"github.com/sandyverden/go-discord/go-rest-api/pkg/swagger/server/restapi/operations"
 )
 
 func main() {
